@@ -20,8 +20,8 @@ blast_data.Hits(6).HSPs.Identities;
 blast_data.Hits(7).HSPs.Score;
 blast_data.Hits(7).HSPs.Identities;
 
-888Pan troglodytes notch 1 (NOTCH1), transcript variant X4 :497;99
-848Rhinopithecus bieti notch 1 (NOTCH1), mRNA :488;98
+888;Pan troglodytes notch 1 (NOTCH1), transcript variant X4 :497;99
+848;Rhinopithecus bieti notch 1 (NOTCH1), mRNA :488;98
 839;Cercocebus atys notch 1 (NOTCH1), mRNA : 486;97
 % 4. Run the same query against the database est_human. Comment on the
 % sequences that you find. 

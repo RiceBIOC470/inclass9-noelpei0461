@@ -27,3 +27,6 @@ blast_data.Hits(7).HSPs.Identities;
 % sequences that you find. 
 [requestID, requestTime]=blastncbi(seq_begin,'blastn','Database','est_human');
 blast_data=getblast(requestID,'WaitTime',requestTime)
+
+% In the query result, I found 50 hits. Only 1 with a high score and high length, while others are very short. 
+% Blast function was still trying to align those short genes with the first 500bps of the original sequence. 
